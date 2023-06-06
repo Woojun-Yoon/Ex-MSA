@@ -1,0 +1,17 @@
+.DS_Store
+.vscode/
+
+# Django App
+db.sqlite3
+dump.rdb
+__pycache__/
+migrations/
+
+# Spring Boot App
+target/
+.mvn/
+!**/maven-wrapper.jar
+
+# React App
+node_modules/
+**/react_app/build/
