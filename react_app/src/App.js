@@ -21,7 +21,7 @@ class App extends Component {
 
     analyzeSentence() {
         // spring-boot-lb 서비스에 대한 url을 넣어줘야 함
-        fetch('http://192.168.99.100:31525/sentiment', {
+        fetch('http://34.172.169.109:80/sentiment', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

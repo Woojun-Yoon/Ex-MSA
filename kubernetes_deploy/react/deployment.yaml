@@ -16,7 +16,7 @@ spec:
         app: react-app
     spec:
       containers:
-        - image: wooyoung85/react_app
+        - image: woojunyoon/react_app
           imagePullPolicy: Always
           name: react-app
           ports:
